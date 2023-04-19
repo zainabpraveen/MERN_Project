@@ -1,0 +1,457 @@
+/* Navbar code */
+
+.navbar{
+height: 6rem;
+ margin: 0 1px;
+ background: #a3b8cf;
+ box-shadow: 1px 2px 3px #3b4949;
+}
+.navbar .logo{
+  height: 4rem;
+  border-radius: 35px;
+  margin-left: 10px;
+  width: 5rem;
+}
+
+
+/* Home */
+
+
+/* Sign Up CSS code */
+
+.signup{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  
+}
+
+.container{
+  height: 85vh;
+   /* background-color: red; */
+   /* margin:0  10rem; */
+   /* max-width: 100rem;
+   margin: 0 auto; */
+}
+
+.signup-content{
+display: grid;
+gap: 1rem;
+grid-template-columns:  repeat(2, 1fr);
+max-width: 100rem;
+margin: 0 20%;
+background:#fff;
+box-shadow: 0px 2px 2px #3b4949;
+padding-bottom: 1rem;
+
+}
+
+.signup-form {
+text-align: center;
+padding-top: 1rem;
+/* overflow: scroll; */
+}
+
+.signup-form  .form-title{
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color:#162c2c;
+  text-transform: capitalize;
+
+}
+
+.register-form .form-group{
+  margin: 0px;
+  margin-bottom: 1rem;
+}
+
+/* .form-group label{
+  position: fixed;
+} */
+
+.form-group input{
+  border: none;
+  padding: 0 2.5rem;
+  padding-bottom: 0.4rem;
+  box-shadow: 0px 1.5px 1.5px #6db8d1;
+}
+
+input:focus{
+  outline: none;
+}
+
+ .form-submit{
+   font-size: 1.3rem;
+   font-weight: 400;
+   color: #fff;
+   border: none;
+   border-radius: 25px;
+   padding: 0.2rem 1rem;
+   text-transform: capitalize;
+  background: #65a4b9;
+  text-decoration: none;
+}
+
+.form-submit:hover{
+    box-shadow: 2px 3px 3px lightslategray;
+    color: #fff;
+}
+
+.signup-image{
+  text-align: center;
+}
+ 
+.signup-image img{
+   height: 24rem;
+   width: 80%;
+  margin-top: 12px; 
+}
+
+.signup-image-link{
+  text-decoration: none;
+  font-size: 20px;
+  color:#3b4949;
+  font-weight: 500;
+  
+}
+
+/* Contact Page */
+
+
+.contact_info_item{
+  margin-top: 40px;
+}
+
+.contact_info_content{
+  background: #e8f0f1;
+  padding: 10px 20px;
+  border-radius: 7px;
+  box-shadow: 1px 2px 2px #3b4949;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #424747;
+}
+
+.contact_form_container{
+  background: #e8f0f1;;
+  margin: 4rem 0;
+  padding: 1rem;
+  overflow: scroll;
+  box-shadow: 1px 2px 3px #3b4949;
+ 
+}
+
+.contact_form_title{
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ color: #162c2c;
+}
+.contact_form  input,textarea{
+border: 1px solid #3b4949;
+border-radius: 12px;
+padding: 6px 3px;
+box-shadow: 1px 2px 3px #3b4949;
+}
+
+.text_field {
+margin-bottom: 1rem;
+
+}
+
+textarea:focus{
+  outline: none;
+}
+
+/* Home  */
+.home-page{
+  height: 85vh;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #d4f3e9 , #fff);
+  
+}
+
+.home-div{
+  text-align: center;
+  box-shadow: 0px 2px 3px #3b4949;
+  padding: 2rem 4rem;
+}
+
+.home-div p{
+  color: #3d3de0;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.home-div h1{
+  font-size: 3rem;
+  font-weight: 700;
+  color: #424747;
+}
+
+
+/* About Page */
+
+.emp-profile form{
+  margin-top: 4rem;
+  box-shadow: 2px 3px 4px lightgrey;
+  padding: 2rem;
+  overflow: hidden;
+
+}
+
+
+.profile-img img{
+  height: 11rem;
+  margin-bottom: 1rem;
+}
+
+.profile-head h5{
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #162c2c;
+}
+
+.profile-head h6{
+  color: #3d3de0;
+  font-weight: 700;
+}
+
+.profile-edit-btn{
+  border: none;
+  background: #8686b3;
+  color: #fff;
+  padding: 0.4rem;
+  box-shadow: 1px 2px 2px #3b4949;
+  /* position: fixed; */
+}
+
+.nav-item a,p,label,
+.pofile-rating{
+  font-weight: 500;
+}
+
+.pofile-rating span{
+  color: #3d3de0;
+}
+
+.profile-work a{
+  text-decoration: none;
+  color: #162c2c;
+  font-weight: 500;
+}
+
+/* Error Page */
+
+#notfound{
+  height: 85vh;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+}
+
+  .notfound{
+    text-align: center;
+  }
+.notfound-404 h1{
+  font-size: 10rem;
+  text-align: center;
+  color: rgb(199, 183, 183);
+}
+
+.notfound  h2{
+  font-weight: 700;
+  color: #162c2c;
+}
+
+/* resposive code */
+/* rem can't use in media */
+/* px and em can use in media*/
+/* 1400 */
+
+
+ /* for 1100px  68.75em*/
+ @media (max-width: 69em){
+  html{
+     font-size: 58.25%; 
+  }
+  .container{
+    max-width: 105rem;  
+  }
+  .grid{
+   gap: 3.8rem;
+   }
+  }
+
+
+  @media (max-width: 980px) {
+
+  }
+
+  /* below 906  = 56.625em*/
+  @media (max-width:54em){
+
+    /* navbar */
+    /* html{
+      width:  560px ;
+    }
+    */
+    
+     .navbar{
+      height: 10rem ;
+   
+    }
+
+     .nav-link{
+      font-size: 3rem;
+     }
+
+     .navbar-toggler{
+      padding: 3rem;
+     }
+
+     .navbar-brand .logo{
+      width: 100%;
+      height: 7rem;
+     }
+
+
+    /* .container{
+     width:60rem;
+     
+    } */
+
+  .signup-content{
+    grid-template-columns: 1fr ;
+    margin: 5%;
+    }
+
+    .signup-image img{
+     height: 2%;
+    }
+
+    .signup-form .form-title{
+      font-size: 3.5rem;
+    }
+
+    .form-group input{
+      padding: 0.8rem 1.8rem;
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+    
+    .form-group .zmdi{
+      font-size: 2.2rem;
+    }
+
+    .signup-image-link{
+      font-size: 2rem;
+    }
+
+   .form-button .form-submit{
+      font-size: 2.2rem;
+      padding: 1.5rem 3rem;
+    }
+    
+    /* About */
+   
+
+   .profile-head h5{
+    font-size: 3.5rem;
+   }
+
+  .profile-head h6{
+        font-size: 2.4rem;
+      }
+
+      .profile-head p{
+        font-size: 2rem;
+      }
+
+      .profile-edit-btn{
+        padding: 0.8rem 1rem;
+        font-size: 2rem;
+      }
+
+    .emp-profile form{
+      padding: 5rem 2rem;
+    }
+
+    .col-md-6 label,p{
+      font-size: 2rem;
+
+    }
+
+    .profile-work p{
+      font-size: 2.6rem;
+    }
+
+    .profile-work a{
+      font-size: 1.9rem;
+    }
+/* Contac */
+
+ .contact_info_title, .contact_info_text{
+  font-size: 2rem;
+ }
+ .contact_form_title{
+  font-size: 3.5rem;
+ }
+
+ .contact_form input,.text_field{
+  font-size: 2rem;
+ }
+ .contact_submit_button{
+  font-size: 2.7rem;
+ }
+ /*  Home Page*/
+.home-page{
+ height:100vh;
+} 
+.home-div p{
+  font-size: 3rem;
+
+}
+
+.home-div h1{
+  font-size: 5rem;
+}
+
+.home-div h2{
+  font-size: 3rem;
+}
+
+  }
+  
+/* below 560 px */
+  @media (max-width: 35em){
+    .logo{
+      width: 20%;
+    }
+
+    input[type="submit"]{
+      max-width: 40%;
+  }
+
+  }
+
+/* @media only screen and(max-width:680px) {
+  .emp-profile form{
+   width: 100%;
+  }
+}
+
+@media only screen and(max-width: 575px){
+.contact_submit_button{
+  font-size: 13px;
+  padding-left:25px;
+  padding-right: 25px;
+
+}
+} */
